@@ -4,7 +4,7 @@
             "outputFile": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/1751590356a59f4e1594bb776040d734/appcompat-v7-27.0.2/res/values-port/values-port.xml",
+                    "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/values-port/values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
