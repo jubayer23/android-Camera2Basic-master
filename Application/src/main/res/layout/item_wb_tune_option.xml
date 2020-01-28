@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:text="Temp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="12sp"/>
+
+            <SeekBar
+                android:id="@+id/seekbar_temp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:max="1500"
+                android:maxHeight="2dp"
+                android:minHeight="2dp"
+                android:thumb="@drawable/custom_thumb"
+                android:progressDrawable="@drawable/seekbar_white"
+                android:thumbTint="@color/white"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:text="Tint"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="12sp"/>
+
+            <SeekBar
+                android:id="@+id/seekbar_tint"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:thumb="@drawable/custom_thumb"
+                android:max="1500"
+                android:maxHeight="2dp"
+                android:minHeight="2dp"
+                android:progressDrawable="@drawable/seekbar_white"
+                android:thumbTint="@color/white"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
