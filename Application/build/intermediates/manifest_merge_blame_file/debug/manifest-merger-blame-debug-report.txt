@@ -22,42 +22,45 @@
 14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 14-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:10:5-81
 14-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:10:22-78
-15
-16    <application
-16-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:12:5-31:19
-17        android:allowBackup="true"
-17-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:13:9-35
-18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.0.0] /Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/2ffb88316df49107418be0872d7babe4/core-1.0.0/AndroidManifest.xml:22:18-86
-19        android:debuggable="true"
-20        android:icon="@drawable/ic_launcher"
-20-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:14:9-45
-21        android:label="@string/app_name"
-21-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:15:9-41
-22        android:testOnly="true"
-23        android:theme="@style/MaterialTheme" >
-23-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:16:9-45
-24        <activity android:name="com.example.android.camera2basic.CameraActivity2" >
-24-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:17:9-25:20
-24-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:17:19-50
-25            <intent-filter>
-25-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:19:13-23:29
-26                <action android:name="android.intent.action.MAIN" />
-26-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:20:17-69
-26-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:20:25-66
-27
-28                <category android:name="android.intent.category.LAUNCHER" />
-28-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:22:17-77
-28-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:22:27-74
-29            </intent-filter>
-30        </activity>
-31        <activity
-31-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:26:9-30:20
-32            android:name="com.example.android.camera2basic.CameraActivity"
-32-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:27:13-43
-33            android:label="@string/app_name" >
-33-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:28:13-45
-34        </activity>
-35    </application>
-36
-37</manifest>
+15    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+15-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:11:5-70
+15-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:11:22-68
+16
+17    <application
+17-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:14:5-33:19
+18        android:allowBackup="true"
+18-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:15:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.0.0] /Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/2ffb88316df49107418be0872d7babe4/core-1.0.0/AndroidManifest.xml:22:18-86
+20        android:debuggable="true"
+21        android:icon="@drawable/ic_launcher"
+21-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:16:9-45
+22        android:label="@string/app_name"
+22-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:17:9-41
+23        android:testOnly="true"
+24        android:theme="@style/MaterialTheme" >
+24-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:18:9-45
+25        <activity android:name="com.example.android.camera2basic.CameraActivity2" >
+25-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:19:9-27:20
+25-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:19:19-50
+26            <intent-filter>
+26-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:21:13-25:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:22:17-69
+27-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:22:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:24:17-77
+29-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:24:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity
+32-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:28:9-32:20
+33            android:name="com.example.android.camera2basic.CameraActivity"
+33-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:29:13-43
+34            android:label="@string/app_name" >
+34-->/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/AndroidManifest.xml:30:13-45
+35        </activity>
+36    </application>
+37
+38</manifest>

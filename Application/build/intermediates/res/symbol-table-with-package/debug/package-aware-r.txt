@@ -790,6 +790,7 @@ id group_divider
 id groups
 id home
 id homeAsUp
+id ic_gallery
 id icon
 id icon_group
 id ifRoom

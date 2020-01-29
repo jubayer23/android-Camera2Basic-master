@@ -16,16 +16,16 @@
         "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
-        "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+        "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable_rounded_boarder.xml.flat",
+        "source": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/res/drawable/rounded_boarder.xml"
     },
     {
         "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable_rounded_boarder.xml.flat",
-        "source": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/res/drawable/rounded_boarder.xml"
+        "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -100,12 +100,12 @@
         "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
-        "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
-    },
-    {
         "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
         "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/drawable-hdpi-v4/abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
     },
     {
         "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/layout_abc_screen_toolbar.xml.flat",
@@ -128,20 +128,20 @@
         "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/a6ce3afbff3f1ae3fa1fe13048b173d9/media-1.0.0/res/layout/notification_template_lines_media.xml"
     },
     {
-        "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_info.png.flat",
-        "source": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/res/drawable-mdpi/ic_action_info.png"
-    },
-    {
         "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
         "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_light.png"
     },
     {
-        "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
-        "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
+        "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_info.png.flat",
+        "source": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/res/drawable-mdpi/ic_action_info.png"
     },
     {
         "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
         "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
@@ -220,12 +220,12 @@
         "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
-        "source": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/res/drawable-mdpi/ic_launcher.png"
-    },
-    {
         "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/drawable-hdpi-v4/abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/res/drawable-mdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/color-v23_abc_tint_edittext.xml.flat",
@@ -296,20 +296,20 @@
         "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
-        "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png"
-    },
-    {
         "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
         "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
-        "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png"
+        "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
         "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/color_abc_tint_edittext.xml.flat",
         "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/color/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png"
     },
     {
         "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
@@ -400,12 +400,12 @@
         "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/color-v23/abc_tint_switch_track.xml"
     },
     {
-        "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_half_black_48dp.png.flat",
-        "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/drawable-mdpi-v4/abc_ic_star_half_black_48dp.png"
-    },
-    {
         "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/color_abc_primary_text_material_light.xml.flat",
         "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_half_black_48dp.png.flat",
+        "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/drawable-mdpi-v4/abc_ic_star_half_black_48dp.png"
     },
     {
         "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/layout_abc_alert_dialog_title_material.xml.flat",
@@ -468,24 +468,24 @@
         "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/layout-watch-v20_abc_alert_dialog_button_bar_material.xml.flat",
-        "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/layout-watch-v20/abc_alert_dialog_button_bar_material.xml"
+        "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png"
     },
     {
         "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
         "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
-        "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
-        "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/layout_notification_template_big_media.xml.flat",
-        "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/a6ce3afbff3f1ae3fa1fe13048b173d9/media-1.0.0/res/layout/notification_template_big_media.xml"
+        "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/layout-watch-v20_abc_alert_dialog_button_bar_material.xml.flat",
+        "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/layout-watch-v20/abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
         "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/layout_notification_template_big_media.xml.flat",
+        "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/a6ce3afbff3f1ae3fa1fe13048b173d9/media-1.0.0/res/layout/notification_template_big_media.xml"
     },
     {
         "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
@@ -568,12 +568,12 @@
         "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/color/abc_hint_foreground_material_light.xml"
     },
     {
-        "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
-        "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
         "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
+        "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
         "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable_abc_btn_radio_material.xml.flat",
@@ -600,12 +600,12 @@
         "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_info.png.flat",
-        "source": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/res/drawable-xhdpi/ic_action_info.png"
-    },
-    {
         "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/layout_abc_list_menu_item_layout.xml.flat",
         "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_info.png.flat",
+        "source": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/src/main/res/drawable-xhdpi/ic_action_info.png"
     },
     {
         "merged": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/res/merged/debug/anim_abc_fade_out.xml.flat",

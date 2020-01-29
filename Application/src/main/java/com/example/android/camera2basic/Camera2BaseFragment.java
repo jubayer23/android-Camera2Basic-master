@@ -82,6 +82,10 @@ public class Camera2BaseFragment extends Fragment
 
    protected TextView tv_focus, tv_exposure, tv_white_balance;
 
+   protected TextView tv_capture_type_photo, tv_capture_type_video;
+
+   protected ImageView ic_gallery;
+
     protected TextView tv_mode_auto_focus, tv_mode_locked_focus, tv_mode_custom_focus;
     protected TextView tv_mode_auto_exposure, tv_mode_locked_exposure, tv_mode_custom_exposure;
     protected TextView tv_mode_auto_wb, tv_mode_locked_wb, tv_mode_custom_wb;

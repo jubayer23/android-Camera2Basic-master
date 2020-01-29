@@ -1,22 +1,22 @@
 package com.example.android.camera2basic;
 
 import android.os.Bundle;
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
-public class Camera2BasicFragment2 extends Camera2BaseFragment implements View.OnClickListener, SeekBar.OnSeekBarChangeListener {
+
+public class Video2BasicFragment2 extends Camera2BaseFragment implements View.OnClickListener, SeekBar.OnSeekBarChangeListener {
 
 
 
-    public static Camera2BasicFragment2 newInstance() {
-        return new Camera2BasicFragment2();
+    public static Video2BasicFragment2 newInstance() {
+        return new Video2BasicFragment2();
     }
 
     @Override
@@ -50,10 +50,10 @@ public class Camera2BasicFragment2 extends Camera2BaseFragment implements View.O
         img_take_picture.setOnClickListener(this);
 
         tv_capture_type_photo = view.findViewById(R.id.tv_capture_type_photo);
-        tv_capture_type_photo.setTextColor(getResources().getColor(R.color.yellow));
         tv_capture_type_photo.setOnClickListener(this);
 
         tv_capture_type_video = view.findViewById(R.id.tv_capture_type_video);
+        tv_capture_type_video.setTextColor(getResources().getColor(R.color.yellow));
         tv_capture_type_video.setOnClickListener(this);
 
 
@@ -206,11 +206,11 @@ public class Camera2BasicFragment2 extends Camera2BaseFragment implements View.O
         }
 
         if(id == R.id.tv_capture_type_photo){
-
+            (( CameraActivity2) getActivity()).showPhotoFragment();
         }
 
         if(id == R.id.tv_capture_type_video){
-            (( CameraActivity2) getActivity()).showVideoFragment();
+
         }
     }
 
