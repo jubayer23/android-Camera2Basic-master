@@ -4,7 +4,7 @@
             "outputFile": "/Users/md.jubayer/developmnet/AndroidStudioProjects/android-Camera2Basic-master/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/4c712a943b3ef7b03236bd690992ba5a/appcompat-1.0.0/res/values-large-v4/values-large-v4.xml",
+                    "source": "/Users/md.jubayer/.gradle/caches/transforms-2/files-2.1/adc4c9864c95f373211e3d4a93e536dd/appcompat-1.0.0/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

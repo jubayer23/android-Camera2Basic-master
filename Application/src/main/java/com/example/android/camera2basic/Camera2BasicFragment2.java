@@ -178,7 +178,9 @@ public class Camera2BasicFragment2 extends Camera2BaseFragment implements View.O
         }
 
         if(id == R.id.tv_circle_show_hide){
+
             if(CIRCULAR_PATH_HOLE == CIRCULAR_PATH_HOLE_TRUE){
+                tv_circle_show_hide.setTextColor(getResources().getColor(R.color.white));
 
                 CIRCULAR_PATH_HOLE = CIRCULAR_PATH_HOLE_FALSE;
                 updateUICircularPathHole(CIRCULAR_PATH_HOLE);
@@ -187,6 +189,8 @@ public class Camera2BasicFragment2 extends Camera2BaseFragment implements View.O
                 //rl_container_circuler_pathhole.setVisibility(View.VISIBLE);
 
             }else if(CIRCULAR_PATH_HOLE == CIRCULAR_PATH_HOLE_FALSE){
+
+                tv_circle_show_hide.setTextColor(getResources().getColor(R.color.yellow));
 
                 CIRCULAR_PATH_HOLE = CIRCULAR_PATH_HOLE_TRUE;
                 updateUICircularPathHole(CIRCULAR_PATH_HOLE);

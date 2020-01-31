@@ -3,6 +3,9 @@ package com.example.android.camera2basic;
 import android.os.Environment;
 
 import java.io.File;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
 
 public class SaveImageToDirectory {
 
@@ -15,15 +18,23 @@ public class SaveImageToDirectory {
         File direct = new File(Environment.getExternalStorageDirectory() + "/" + FOLDER_NAME + "/patientId_" + Camera2BaseFragment.patientId) ;
 
         if (!direct.exists()) {
-            File wallpaperDirectory = new File("/sdcard/" + FOLDER_NAME + "/patientId_" + Camera2BaseFragment.patientId + "/");
+            File wallpaperDirectory = new File(Environment.getExternalStorageDirectory() + "/" + FOLDER_NAME + "/patientId_" + Camera2BaseFragment.patientId);
             wallpaperDirectory.mkdirs();
         }
 
-        File file = new File("/sdcard/" + FOLDER_NAME + "/patientId_" + Camera2BaseFragment.patientId + "/", fileName + extension);
-        if (file.exists()) {
-            file.delete();
+
+        String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss",
+                Locale.getDefault()).format(new Date());
+        File mediaFile;
+        mediaFile = new File(direct.getPath() + File.separator
+                + "IMG_" + timeStamp + EXTENSION_JPEG);
+
+
+        //File file = new File("/sdcard/" + FOLDER_NAME + "/patientId_" + Camera2BaseFragment.patientId + "/", fileName + extension);
+        if (mediaFile.exists()) {
+            mediaFile.delete();
         }
 
-        return file;
+        return mediaFile;
     }
 }

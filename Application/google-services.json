@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "995410614948",
+    "firebase_url": "https://bugreporter-48254.firebaseio.com",
+    "project_id": "bugreporter-48254",
+    "storage_bucket": "bugreporter-48254.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995410614948:android:63237740bb80cdf2",
+        "android_client_info": {
+          "package_name": "com.creative.bugreporter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995410614948-1sa0n68vapgc554tn7s3r8neqvnjkgie.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.creative.bugreporter",
+            "certificate_hash": "3fd3e5dd96756a8f4b3d45f4e66daa1db786cad1"
+          }
+        },
+        {
+          "client_id": "995410614948-g4r7pks34i9ic46hl1qij213gaut8f0g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBav6DT3QVp8GgSw4-tqBlP7MCXv4nxp2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995410614948-g4r7pks34i9ic46hl1qij213gaut8f0g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995410614948:android:f12411640b4e8cf70ca431",
+        "android_client_info": {
+          "package_name": "com.example.android.camera2basic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995410614948-g4r7pks34i9ic46hl1qij213gaut8f0g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBav6DT3QVp8GgSw4-tqBlP7MCXv4nxp2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995410614948-g4r7pks34i9ic46hl1qij213gaut8f0g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995410614948:android:c9f3bb7d39b61200",
+        "android_client_info": {
+          "package_name": "com.lifedata.reallife_exp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995410614948-g4r7pks34i9ic46hl1qij213gaut8f0g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBav6DT3QVp8GgSw4-tqBlP7MCXv4nxp2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995410614948-g4r7pks34i9ic46hl1qij213gaut8f0g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

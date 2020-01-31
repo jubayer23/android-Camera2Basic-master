@@ -116,10 +116,10 @@ public class Camera2BaseFragment extends Fragment
 
     protected SeekBar seekbar_focus,seekbar_iso, seekbar_bias, seekbar_temp, seekbar_tint;
 
-    protected static final int focus_max = 100;
+    protected static final int focus_max = 200;
     protected static final int iso_max = 15000;
     protected static final int bias_max = 100;
-    protected static final int temp_max = 10000;
+    protected static final int temp_max = 100000;
     protected static final int tint_max = 100;
 
     protected float focus_value = 0.0f;
@@ -562,6 +562,12 @@ public class Camera2BaseFragment extends Fragment
                 CameraCharacteristics characteristics
                         = manager.getCameraCharacteristics(cameraId);
 
+                Log.d("Img", "INFO_SUPPORTED_HARDWARE_LEVEL " + characteristics.get(CameraCharacteristics.INFO_SUPPORTED_HARDWARE_LEVEL));
+
+                int support = characteristics.get(CameraCharacteristics.INFO_SUPPORTED_HARDWARE_LEVEL);
+
+
+
                 // We don't use a front facing camera in this sample.
                 Integer facing = characteristics.get(CameraCharacteristics.LENS_FACING);
                 if (facing != null && facing == CameraCharacteristics.LENS_FACING_FRONT) {
@@ -754,7 +760,7 @@ public class Camera2BaseFragment extends Fragment
 
             // We set up a CaptureRequest.Builder with the output Surface.
             mPreviewRequestBuilder
-                    = mCameraDevice.createCaptureRequest(CameraDevice.TEMPLATE_MANUAL);
+                    = mCameraDevice.createCaptureRequest(CameraDevice.TEMPLATE_STILL_CAPTURE);
             /*mPreviewRequestBuilder.set(CaptureRequest.CONTROL_AF_MODE , CaptureResult.CONTROL_AF_MODE_OFF);
             mPreviewRequestBuilder.set(CaptureRequest.LENS_FOCUS_DISTANCE, 0.2825f);*/
             mPreviewRequestBuilder.addTarget(surface);
@@ -874,6 +880,7 @@ public class Camera2BaseFragment extends Fragment
                 break;
             case MODE_TYPE_CUSTOM:
                 try {
+                    mPreviewRequestBuilder.set(CaptureRequest.CONTROL_AWB_MODE, CaptureRequest.CONTROL_AWB_MODE_OFF);
                     mPreviewRequestBuilder.set(CaptureRequest.COLOR_CORRECTION_MODE, CaptureRequest.COLOR_CORRECTION_MODE_TRANSFORM_MATRIX);
                     mPreviewRequestBuilder.set(CaptureRequest.COLOR_CORRECTION_GAINS, colorTemperature(temp_value));
                     mPreviewRequest = mPreviewRequestBuilder.build();

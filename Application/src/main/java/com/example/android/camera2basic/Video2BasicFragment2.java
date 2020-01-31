@@ -1,19 +1,41 @@
 package com.example.android.camera2basic;
 
+import android.net.Uri;
 import android.os.Bundle;
+import android.os.SystemClock;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Chronometer;
+import android.widget.MediaController;
 import android.widget.SeekBar;
 import android.widget.TextView;
+import android.widget.Toast;
+import android.widget.VideoView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+import com.github.hiteshsondhi88.libffmpeg.FFmpeg;
+import com.github.hiteshsondhi88.libffmpeg.FFmpegExecuteResponseHandler;
 
-public class Video2BasicFragment2 extends Camera2BaseFragment implements View.OnClickListener, SeekBar.OnSeekBarChangeListener {
+import java.io.File;
 
 
+public class Video2BasicFragment2 extends CameraVideoFragment implements View.OnClickListener, SeekBar.OnSeekBarChangeListener {
+
+
+    /**
+     * An {@link AutoFitTextureView} for camera preview.
+     */
+    private AutoFitTextureView mTextureView;
+
+    protected VideoView mVideoView;
+
+    private String mOutputFilePath;
+
+    private Chronometer cm_video_time;
 
     public static Video2BasicFragment2 newInstance() {
         return new Video2BasicFragment2();
@@ -22,12 +44,23 @@ public class Video2BasicFragment2 extends Camera2BaseFragment implements View.On
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_camera2_basic_fragment2, container, false);
+        return inflater.inflate(R.layout.fragment_video2_basic_fragment2, container, false);
+    }
+
+    @Override
+    public int getTextureResource() {
+        return R.id.texture;
     }
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        //doReplaceTheFrame();
         super.onViewCreated(view, savedInstanceState);
+
+        cm_video_time = view.findViewById(R.id.cm_video_time);
+        cm_video_time.setVisibility(View.GONE);
+
+        mVideoView = view.findViewById(R.id.mVideoView);
 
         mTextureView = (AutoFitTextureView) view.findViewById(R.id.texture);
         rl_container_circuler_pathhole = view.findViewById(R.id.rl_container_circuler_pathhole);
@@ -105,7 +138,28 @@ public class Video2BasicFragment2 extends Camera2BaseFragment implements View.On
         int id = view.getId();
 
         if(id == R.id.img_take_picture){
-            takePicture();
+            //takePicture();
+            /**
+             * If media is not recoding then start recording else stop recording
+             */
+            if (mIsRecordingVideo) {
+                cm_video_time.stop();
+                cm_video_time.setVisibility(View.GONE);
+                try {
+                    stopRecordingVideo();
+                  //  prepareViews();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            } else {
+                cm_video_time.setVisibility(View.VISIBLE);
+                cm_video_time.start();
+                cm_video_time.setBase(SystemClock.elapsedRealtime());
+                startRecordingVideo();
+               // mRecordVideo.setImageResource(R.drawable.ic_stop);
+                //Receive out put file here
+                mOutputFilePath = getCurrentFile().getAbsolutePath();
+            }
         }
 
         if(id == R.id.tv_focus){
@@ -178,7 +232,15 @@ public class Video2BasicFragment2 extends Camera2BaseFragment implements View.On
         }
 
         if(id == R.id.tv_circle_show_hide){
+
+            if(mIsRecordingVideo){
+                Toast.makeText(getActivity(),"You cannot turn this on while video is recording", Toast.LENGTH_LONG).show();
+                return;
+            }
+
             if(CIRCULAR_PATH_HOLE == CIRCULAR_PATH_HOLE_TRUE){
+
+                tv_circle_show_hide.setTextColor(getResources().getColor(R.color.white));
 
                 CIRCULAR_PATH_HOLE = CIRCULAR_PATH_HOLE_FALSE;
                 updateUICircularPathHole(CIRCULAR_PATH_HOLE);
@@ -187,6 +249,8 @@ public class Video2BasicFragment2 extends Camera2BaseFragment implements View.On
                 //rl_container_circuler_pathhole.setVisibility(View.VISIBLE);
 
             }else if(CIRCULAR_PATH_HOLE == CIRCULAR_PATH_HOLE_FALSE){
+
+                tv_circle_show_hide.setTextColor(getResources().getColor(R.color.yellow));
 
                 CIRCULAR_PATH_HOLE = CIRCULAR_PATH_HOLE_TRUE;
                 updateUICircularPathHole(CIRCULAR_PATH_HOLE);
@@ -301,7 +365,7 @@ public class Video2BasicFragment2 extends Camera2BaseFragment implements View.On
         switch (SELECTED_TUNE_CATEGORY){
             case TUNE_CATEGORY_FOCUS:
 
-                createCameraPreviewSession_focus_mode(modeType);
+                //createCameraPreviewSession_focus_mode(modeType);
 
                 updateModeUI(modeType, tv_mode_auto_focus,tv_mode_locked_focus, tv_mode_custom_focus);
 
@@ -310,14 +374,14 @@ public class Video2BasicFragment2 extends Camera2BaseFragment implements View.On
 
             case TUNE_CATEGORY_EXPOSURE:
 
-                createCameraPreviewSession_exposure_mode(modeType);
+               // createCameraPreviewSession_exposure_mode(modeType);
 
                 updateModeUI(modeType, tv_mode_auto_exposure,tv_mode_locked_exposure, tv_mode_custom_exposure);
 
 
                 break;
             case TUNE_CATEGORY_WB:
-                createCameraPreviewSession_wb_mode(modeType);
+                //createCameraPreviewSession_wb_mode(modeType);
 
                 updateModeUI(modeType, tv_mode_auto_wb,tv_mode_locked_wb, tv_mode_custom_wb);
                 break;
@@ -365,7 +429,7 @@ public class Video2BasicFragment2 extends Camera2BaseFragment implements View.On
         switch (seekBar.getId()) {
             case R.id.seekbar_focus:
                 focus_value = progress/10.0f;
-                createCameraPreviewSession_focus_change();
+                //createCameraPreviewSession_focus_change();
                 break;
             default:
                 break;
@@ -383,18 +447,18 @@ public class Video2BasicFragment2 extends Camera2BaseFragment implements View.On
             case R.id.seekbar_iso:
                 iso_value = seekBar.getProgress();
                 //tv_iso.setText(""+seekIso);
-                createCameraPreviewSession_iso_change();
+               // createCameraPreviewSession_iso_change();
                 break;
             case R.id.seekbar_ss:
                 //value = (seekBar.getProgress() + 9516);
                // tv_ss.setText(""+seekSs);
-                createCameraPreviewSession_ss_chnage();
+               // createCameraPreviewSession_ss_chnage();
                 break;
             case R.id.seekbar_temp:
                 //seekSs = (seekBar.getProgress() + 9516);
                 temp_value = seekBar.getProgress() + 3000;
                 // tv_ss.setText(""+seekSs);
-                createCameraPreviewSession_temp_chnage();
+                //createCameraPreviewSession_temp_chnage();
                 break;
             default:
                 break;
@@ -410,4 +474,37 @@ public class Video2BasicFragment2 extends Camera2BaseFragment implements View.On
             rl_container_circuler_pathhole.setVisibility(View.GONE);
         }
     }
+
+
+    private void prepareViews() {
+        if (mVideoView.getVisibility() == View.GONE) {
+            mVideoView.setVisibility(View.VISIBLE);
+            //mPlayVideo.setVisibility(View.VISIBLE);
+            mTextureView.setVisibility(View.GONE);
+            setMediaForRecordVideo();
+        }
+    }
+    private void setMediaForRecordVideo() {
+        // Set media controller
+        mVideoView.setMediaController(new MediaController(getActivity()));
+        mVideoView.requestFocus();
+        mVideoView.setVideoPath(mOutputFilePath);
+        mVideoView.seekTo(100);
+        mVideoView.setOnCompletionListener(mp -> {
+            // Reset player
+            mVideoView.setVisibility(View.GONE);
+            mTextureView.setVisibility(View.VISIBLE);
+           // mPlayVideo.setVisibility(View.GONE);
+            //mRecordVideo.setImageResource(R.drawable.ic_record);
+        });
+    }
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+       // unbinder.unbind();
+    }
+
+
+
+
 }
